@@ -1,0 +1,22 @@
+./../buyer/include/functions.h:1:  #ifndef header guard has wrong style, please use: BUYER_INCLUDE_FUNCTIONS_H_  [build/header_guard] [5]
+./../buyer/include/functions.h:22:  #endif line should be "#endif  // BUYER_INCLUDE_FUNCTIONS_H_"  [build/header_guard] [5]
+./../buyer/src/functions.c:53:  Add #include <cstdio> for printf  [build/include_what_you_use] [4]
+./../buyer/src/main.c:8:  Add #include <cstdio> for scanf  [build/include_what_you_use] [4]
+./../ticket_office/include/functions.h:1:  #ifndef header guard has wrong style, please use: TICKET_OFFICE_INCLUDE_FUNCTIONS_H_  [build/header_guard] [5]
+./../ticket_office/include/functions.h:23:  #endif line should be "#endif  // TICKET_OFFICE_INCLUDE_FUNCTIONS_H_"  [build/header_guard] [5]
+./../ticket_office/include/functions.h:13:  Line ends in whitespace.  Consider deleting these extra spaces.  [whitespace/end_of_line] [4]
+./../ticket_office/include/functions.h:15:  Function name 'available_tickets_init' should use CamelCase and start with an uppercase letter.  [readability/naming] [4]
+./../ticket_office/include/functions.h:16:  Function name 'purchased_tickets_init' should use CamelCase and start with an uppercase letter.  [readability/naming] [4]
+./../ticket_office/include/functions.h:17:  Function name 'transactions_init' should use CamelCase and start with an uppercase letter.  [readability/naming] [4]
+./../ticket_office/src/functions.c:7:  Function name 'available_tickets_init' should use CamelCase and start with an uppercase letter.  [readability/naming] [4]
+./../ticket_office/src/functions.c:20:  Function name 'purchased_tickets_init' should use CamelCase and start with an uppercase letter.  [readability/naming] [4]
+./../ticket_office/src/functions.c:33:  Function name 'transactions_init' should use CamelCase and start with an uppercase letter.  [readability/naming] [4]
+./../ticket_office/src/functions.c:39:  Add #include <cstdio> for perror  [build/include_what_you_use] [4]
+./../ticket_office/src/main.c:31:  Add #include <cstdio> for printf  [build/include_what_you_use] [4]
+Done processing ./../buyer/include/functions.h
+Done processing ./../buyer/src/functions.c
+Done processing ./../buyer/src/main.c
+Done processing ./../ticket_office/include/functions.h
+Done processing ./../ticket_office/src/functions.c
+Done processing ./../ticket_office/src/main.c
+Total errors found: 15
