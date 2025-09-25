@@ -114,7 +114,7 @@ int main(int argc, char* argv[]) {
   munmap(shm, BLOCK_SIZE);
   close(fd);
   shm_unlink(shmName);
-  mq_close(queueName);
+  mq_close(queue);
   mq_unlink(queueName);
   return 0;
 }

@@ -19,21 +19,21 @@ int main(int argc, char* argv) {
     exit(1);
   }
 
-  char queueName[] = argv[1];
-  char shmName[] = argv[2];
+  const char* queueName = argv[1];
+  const char *shmName = argv[2];
 
   struct mq_attr attr;
   attr.flags = 0;
   attr.maxmsg = MAX_MSG;
-  attr.maxsize = MAX_SIZE;
+  attr.msgsize = MAX_SIZE;
 
-  mqd_t queue = open_queue(queueName, O_RDONLY, 0666, &attr);
+  mqd_t queue = mq_open(queueName, O_RDONLY, 0666, &attr);
   if (queue == -1) {
     perror("failed to open queue");
     exit(1);
   }
 
-  int fd = shm_open(shmName, O_RDWR, 0666, 0);
+  int fd = shm_open(shmName, O_RDWR, 0666);
   if (fd == -1) {
     perror("Failed to open fd\n");
     exit(1);
@@ -61,7 +61,7 @@ int main(int argc, char* argv) {
     if (n == -1) {
       if (errno == EAGAIN) {
         // Queue empty
-        fprintf("Queue empty\n");
+        fprintf(stderr, "Queue empty\n");
         continue;
       } else {
         perror("Failed reading from queue\n");
@@ -72,7 +72,7 @@ int main(int argc, char* argv) {
     //Strcmp reeturn 0 if equal
     if (!(strcmp(message, "Square"))) {
       for (int i = 0; i < 25; i++) {
-        shm_ptr[i] = pow(shm_ptr[i], 2);
+        shm_ptr[i] *= shm_ptr[i];
         fprintf(stderr, "SHM[%i] = %f\n", i, shm_ptr[i]);
       }
       continue;

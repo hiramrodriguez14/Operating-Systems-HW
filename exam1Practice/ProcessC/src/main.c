@@ -21,7 +21,7 @@ int main(int argc, char* argv[]) {
     exit(1);
   }
 
-  char shmName[] = argv[1];
+  const char* shmName = argv[1];
 
   int fd = shm_open(shmName, O_RDONLY, 0666);
   if (fd == -1) {
