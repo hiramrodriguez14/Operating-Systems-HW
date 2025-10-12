@@ -1,0 +1,74 @@
+Connected to the ticket office!
+Buyer 1 requests 3 tickets.
+Thread 0x70000dde3000 purchased 3 tickets. Available: 97
+Buyer 3 requests 4 tickets.
+Thread 0x70000dee9000 purchased 4 tickets. Available: 93
+Buyer 2 requests 2 tickets.
+Thread 0x70000de66000 purchased 2 tickets. Available: 91
+Buyer 1 requests 1 tickets.
+Thread 0x70000dde3000 purchased 1 tickets. Available: 90
+Buyer 3 requests 3 tickets.
+Thread 0x70000dee9000 purchased 3 tickets. Available: 87
+Buyer 2 requests 1 tickets.
+Thread 0x70000de66000 purchased 1 tickets. Available: 86
+Buyer 1 requests 4 tickets.
+Thread 0x70000dde3000 purchased 4 tickets. Available: 82
+Buyer 3 requests 2 tickets.
+Thread 0x70000dee9000 purchased 2 tickets. Available: 80
+Buyer 2 requests 5 tickets.
+Thread 0x70000de66000 purchased 5 tickets. Available: 75
+Buyer 1 requests 1 tickets.
+Thread 0x70000dde3000 purchased 1 tickets. Available: 74
+Buyer 2 requests 4 tickets.
+Thread 0x70000de66000 purchased 4 tickets. Available: 70
+Buyer 3 requests 1 tickets.
+Thread 0x70000dee9000 purchased 1 tickets. Available: 69
+Buyer 1 requests 1 tickets.
+Thread 0x70000dde3000 purchased 1 tickets. Available: 68
+Buyer 2 requests 3 tickets.
+Thread 0x70000de66000 purchased 3 tickets. Available: 65
+Buyer 3 requests 2 tickets.
+Thread 0x70000dee9000 purchased 2 tickets. Available: 63
+Buyer 1 requests 5 tickets.
+Thread 0x70000dde3000 purchased 5 tickets. Available: 58
+Buyer 3 requests 3 tickets.
+Thread 0x70000dee9000 purchased 3 tickets. Available: 55
+Buyer 2 requests 4 tickets.
+Thread 0x70000de66000 purchased 4 tickets. Available: 51
+Buyer 1 requests 3 tickets.
+Thread 0x70000dde3000 purchased 3 tickets. Available: 48
+Buyer 3 requests 4 tickets.
+Thread 0x70000dee9000 purchased 4 tickets. Available: 44
+Buyer 2 requests 5 tickets.
+Thread 0x70000de66000 purchased 5 tickets. Available: 39
+Buyer 1 requests 2 tickets.
+Thread 0x70000dde3000 purchased 2 tickets. Available: 37
+Buyer 3 requests 4 tickets.
+Thread 0x70000dee9000 purchased 4 tickets. Available: 33
+Buyer 2 requests 2 tickets.
+Thread 0x70000de66000 purchased 2 tickets. Available: 31
+Buyer 1 requests 1 tickets.
+Thread 0x70000dde3000 purchased 1 tickets. Available: 30
+Buyer 3 requests 5 tickets.
+Thread 0x70000dee9000 purchased 5 tickets. Available: 25
+Buyer 2 requests 3 tickets.
+Thread 0x70000de66000 purchased 3 tickets. Available: 22
+Buyer 1 requests 4 tickets.
+Thread 0x70000dde3000 purchased 4 tickets. Available: 18
+Buyer 2 requests 2 tickets.
+Thread 0x70000de66000 purchased 2 tickets. Available: 16
+Buyer 3 requests 4 tickets.
+Thread 0x70000dee9000 purchased 4 tickets. Available: 12
+Buyer 2 requests 1 tickets.
+Thread 0x70000de66000 purchased 1 tickets. Available: 11
+Buyer 1 requests 3 tickets.
+Thread 0x70000dde3000 purchased 3 tickets. Available: 8
+Buyer 3 requests 1 tickets.
+Thread 0x70000dee9000 purchased 1 tickets. Available: 7
+Buyer 2 requests 5 tickets.
+Thread 0x70000de66000 purchased 5 tickets. Available: 2
+Buyer 1 requests 2 tickets.
+Thread 0x70000dde3000 purchased 2 tickets. Available: 0
+Buyer 3 requests 2 tickets.
+Thread 0x70000dee9000 failed to purchase tickets. Not enough available tickets.
+Buyer finished purchasing tickets.
